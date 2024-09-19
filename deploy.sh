@@ -19,7 +19,7 @@ fi
 source venv/bin/activate
 
 # Install required Python packages
-pip install --no-cache-dir -r requirements.txt
+pip install -r requirements.txt
 
 # Stop the app service if it's running (optional)
 # Uncomment and modify if using a service manager like systemd
